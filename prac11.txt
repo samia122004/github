@@ -1,0 +1,6 @@
+#write a 8085 program to show data transfer instructions
+2000 MVI A,05H   #move data to Accumulator  A register
+2002 MVI B,04H
+2004 MOV C,B    #move value of B to C register
+2005 STA 2010H   #store Accumulator value into memory location 2010H
+2008 HLT  
